@@ -7,6 +7,7 @@ random_patrol:是否啟動隨機座標點巡邏，而不是按照順序來巡邏
 patrol_type:巡邏類型，不是不斷巡邏時才需要設定使用哪種巡邏方式，patrol_loop=與patrol_time為互斥性，設定為0，patrol_time就會無效，設定為1，patrol_loop就會無效  
 * 0:巡邏圈數patrol_loop，巡邏指定圈束後停止  
 * 1:巡邏時間patrol_time，巡邏指定時間後返回起始點停止  
+
 patrol_loop:keep_patrol設定為false後，可以設定巡航圈數  
 patrol_time:設定巡邏時間，當巡邏時間到達指定時間後，就返回起始點，時間單位為分鐘  
 
